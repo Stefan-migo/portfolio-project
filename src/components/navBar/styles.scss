@@ -1,0 +1,106 @@
+.navbar { //general styling of navbar. 
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: var(--selected-theme-nav-background-color);
+
+    &__container { //general styling for the container within the navbar
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        padding: 0px 20px;
+    
+        &__logo{ //styling the inside the container.
+            color: var(--selected-theme-main-color);
+            cursor: pointer;
+            font-size: 2rem;
+            flex-grow: 1;
+            svg{
+                fill: var(--selected-theme-main-color);
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        &__menu { //styling the menu 
+            display: flex;
+            list-style: none;
+            text-align: center;
+
+            &__item { //styling each item from the menu
+                line-height: 40px;
+                margin-right: 1.5rem;
+                font-size: 1.6rem;
+                &::after { //before the hover 
+                    content: '';
+                    display: block;
+                    height: 3px;
+                    width: 0px;
+                    background: transparent;
+                    transition: width 0.5s ease;
+                }
+                &:hover::after{ //after the hover
+                    width: 100%;
+                    background: var(--selected-theme-main-color);
+                }
+            }
+
+            &__links {
+                color: var(--selected-theme-main-color);
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+            }
+            &__item:last-child { //just the last item from the menu(<li> tag) will have margin 0
+                margin: 0;
+            }
+        }
+
+    }
+}
+
+.nav-icon {
+    display: none;
+}
+
+//mediaquery
+@media only screen and (max-width: 768px) {
+    .navbar__container__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+
+        &.active {
+            background: #181818;
+            left: 0px;
+            opacity: 1;
+            z-index: 1;
+            transition: all 0.5s ease;
+        }
+
+        &__item {
+            border-bottom: 1px solid #282828;
+            margin: 0px;
+            padding: 20px 0px;
+
+        }
+
+    }
+    .nav-icon {
+        display: block;
+        cursor: pointer;
+        color: var(--selected-theme-main-color);
+    }
+}
