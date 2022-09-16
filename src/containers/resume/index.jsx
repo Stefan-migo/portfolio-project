@@ -43,8 +43,9 @@ const Resume = () => {
                                     <h4>{item.subTitle}</h4>         
                                 </div>
                                 <p className="vertical-timeline-element-description-wrapper">{item.description}<br/>
-                                <a href='https://github.com/Stefan-migo/ecommerce_sanity_stripe' alt='github link'>{item.link}</a></p>
-                                
+                                <a href={item.link} alt='github link' target='_blank'>{item.link}</a><br/>
+                                <a href={item.linkLive} alt='live link' target='_blank'>{item.linkLive}</a></p>
+
                             </VerticalTimelineElement>
                         ))}
                     </VerticalTimeline>

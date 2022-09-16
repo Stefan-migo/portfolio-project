@@ -6,6 +6,7 @@ export const Data = {
             description: 
             'An e-commerce web app that has been built on top of Next.js, Sanity and Stripe technologies. Code project and live version available on: ',
             link: 'https://github.com/Stefan-migo/ecommerce_sanity_stripe',
+            linkLive: 'http://ecommerce-sanity-stripe-psi-five.vercel.app/',
             date: 'May - 2022'
         },
         {
@@ -14,6 +15,7 @@ export const Data = {
             description:
             'It is a web app that works on top of React.js, Node.js and Stream technologies. Code project and live version available on:',
             link: 'https://github.com/Stefan-migo/pirate_chat_app',
+            linkLive: 'https://pirate-chat-app.vercel.app/',
             date: 'Jun - 2022'
         },
         {
@@ -22,6 +24,7 @@ export const Data = {
             description:
             "Chat App Server is the backend for the Pirates' Chat App built with Node.js ",
             link: 'https://github.com/Stefan-migo/chat_app_server',
+            linkLive: 'https://pirate-chat-app.vercel.app/',
             date: 'Jun - 2022'
         },
         {
@@ -30,6 +33,7 @@ export const Data = {
             description:
             'It is a web app that works on top of Next.js, HyGraphQL technologies and it is hosted on Vercel. Code project and live version available on: ',
             link: 'https://github.com/Stefan-migo/travel-blog-project',
+            linkLive: 'https://travel-blog-project.vercel.app/',
             date: 'Jul - 2022'
         },
         {
@@ -38,6 +42,7 @@ export const Data = {
             description:
             'It is a face detection web app that works on top of React.js, Node.js and PostgreSQL technologies hosted on elephantSQL.com and Render.com. Code project and live version available on: ',
             link: 'https://github.com/Stefan-migo/smart-brain-app',
+            linkLive: 'https://smart-brain-app.onrender.com',
             date: 'Aug - 2022'
         },
         {
@@ -46,6 +51,7 @@ export const Data = {
             description:
             "this is a face detection's server that works on top of Node.js and PostgreSQL technologies ",
             link: 'https://github.com/Stefan-migo/smart-brain-app',
+            linkLive: 'https://smart-brain-app.onrender.com',
             date: 'Aug - 2022'
         },
     ],
