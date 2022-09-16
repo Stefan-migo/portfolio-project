@@ -1,17 +1,17 @@
 export const personalData = [
     {
         label: 'Name: ',
-        value: 'Stefan'
+        value: 'Stefan Miranda Gonzalez'
         
     },
     {
         label: 'Age: ',
-        value: '30'
+        value: '30 years old'
         
     },
     {
         label: 'Address: ',
-        value: 'Chile'
+        value: 'Huincacara s/n, Villarrica, Chile.'
         
     },
     {

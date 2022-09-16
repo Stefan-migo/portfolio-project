@@ -11,6 +11,7 @@ import Contact from './containers/contact';
 import NavBar from './components/navBar';
 import Theme from './components/theme';
 import particlesConfig from './helpers/particlesConfig';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   const particlesInit = async (main) => {
@@ -29,7 +30,7 @@ function App() {
         {/*navBar component*/}
         <NavBar />
       </div>
-        {/*main page content*/}
+      {/*main page content*/}
       <div className='App__main-content-wrapper'>
         {/*Themes component*/}
         <Theme />
@@ -43,6 +44,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </div>
+      <Toaster />
     </div>
 
   );

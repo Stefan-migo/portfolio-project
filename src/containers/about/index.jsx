@@ -4,7 +4,7 @@ import './styles.scss';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { personalData } from "./utils";
 import { Animate } from "react-simple-animate";
-import { DiReact, DiJavascript, DiPostgresql, DiNodejs } from 'react-icons/di'
+import { DiReact, DiJavascript, DiPostgresql, DiCss3 } from 'react-icons/di'
 
 
 const About = () => {
@@ -27,11 +27,14 @@ const About = () => {
                         transform: 'translateX(0px)'
                     }}
                     >
-                    <h3 className="developerContent"> FullStack Web Developer </h3>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto aut modi eveniet totam magni unde nulla quo a rerum illum aspernatur, doloribus beatae deserunt impedit vel facere in quam dicta.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate sed consequatur blanditiis quo aut sit asperiores illum quod? Et totam perspiciatis illo ipsa quos voluptatem. Dicta eum suscipit sint perferendis.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit hic officiis dolor minus, sint laborum voluptates eligendi voluptatem facere molestias rerum iste illo voluptas, fugit, cum aliquid autem tempore?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta pariatur laudantium quo, provident, mollitia earum officia commodi temporibus sapiente consequuntur autem sequi reiciendis eos in nesciunt at. Et, dicta aperiam?
+                    <h3 className="developerContent">My journey as a Full Stack Web Developer </h3>
+                    <p> I graduated from the University of Chile and I hold a bachelor's degree as Ophthalmic Medical Technician and Optometry (Eyes Specialist). In addition, I also have experience in other areas, where I have developed and certificated my skills, one of them is the Full Stack Web development field where I have been since the pandemic began.<br/>
+                    <br/> 
+                        A few years ago I made up my mind to move abroad from Chile, trying to find my own path in life and explore new job opportunities. I quit my job as an eyes specialist in Chile and I started the journey to find my real passion. After 3 years moving and exploring different fields, I finally understood my connection with coding and technologies. Since then I have been studying and above all coding different sorts of projects.<br/>
+                        <br/> 
+                        My problem-solving mindset, outgoing personality and can-do approach to any task make me a valued team member, and ensure that each project will be built with the best practices possible.<br/>  
+                        <br/> 
+                        I believe that my experience in several areas, complemented by my abilities such as to work under pressure, teamwork, willingness to learn and constant positive attitude. They make me an excellent candidate to join your team.
                     </p>
                 </Animate>
                 <Animate
@@ -77,10 +80,10 @@ const About = () => {
                             <DiJavascript size={60} color="var(--selected-theme-main-color)" />
                         </div>
                         <div>
-                            <DiNodejs size={60} color="var(--selected-theme-main-color)" />
+                            <DiPostgresql size={60} color="var(--selected-theme-main-color)" />
                         </div>
                         <div>
-                            <DiPostgresql size={60} color="var(--selected-theme-main-color)" />
+                            <DiCss3 size={60} color="var(--selected-theme-main-color)" />
                         </div>
                     </div>
                 </Animate>

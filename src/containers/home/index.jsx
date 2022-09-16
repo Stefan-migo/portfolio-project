@@ -27,22 +27,27 @@ const Home = () => {
             >
             <div className="contact-me">
                     <div className="contact-me__buttons-wrapper">
-                        <button>
+                        
                             <Link
                             to={'/contact'} className="contact-me__link">
+                                <button>
                                 Hire me
+                                </button>
                             </Link>
-                        </button>
-                        <button>
-                        Download resume
-                        </button>
+                        
+                        <a href='https://drive.google.com/file/d/1FIZU8f0JrTF9rPDItoZMtI-3yo-6ciBZ/view?usp=sharing' target='_blank' alt='resume PDF'>
+                            <button>
+                                Download resume
+                            </button>
+                        </a>
                     </div>
                     <div className="contact-me__socials-wrapper">
-                        <FaFacebook size={32} />
-                        <FaInstagram size={32} />
-                        <FaTwitter size={32} />
-                        <FaLinkedin size={32} />
-                        <FaGithub size={32} />
+                        <a href='https://www.instagram.com/leberland/' target='_blank' alt='personal instagram'> 
+                            <FaInstagram size={32} /> </a>
+                        <a href='https://www.linkedin.com/in/stefan-miranda-gonzalez-787387118/' target='_blank' alt='personal linkedin'>
+                            <FaLinkedin size={32} /></a>
+                        <a href='https://github.com/Stefan-migo' target='_blank' alt='personal github'>
+                            <FaGithub size={32} /></a>
                     </div>
             </div>
             </Animate>

@@ -71,18 +71,30 @@
             display: flex;
             align-items: center;
 
-            h3,h4 {
-                font-size: 15px;
+            h3 {
+                font-size: 19px;
                 color: var(--selected-theme-sub-text-color);
             }
             h4{
-                margin: 8px;
+                font-size: 15px;
+                color: var(--selected-theme-sub-text-color);
+                margin: 0px 8px;
             }
+            
+        }
+        h5 {
+            font-size: 15px;
+                color: var(--selected-theme-sub-text-color);
+                margin: 10px 0px;
         }
         
         .vertical-timeline-element-description-wrapper{
-            font-size: 18px;
+            font-size: 17px;
             color: var(--selected-theme-sub-text-color);
+
+            a{
+                color: var(--selected-theme-sub-text-color);
+            }
         }
 
     }

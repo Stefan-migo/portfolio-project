@@ -31,7 +31,7 @@ const Resume = () => {
                                     color: 'var(--selected-theme-main-color)',
                                     border: '1.5px solid var(--selected-theme-main-color)'
                                 }}
-                                date="2020 - present" //item.date if you create that element into the array
+                                date={item.date} //item.date if you create that element into the array
                                 iconStyle={{
                                     background: '#181818',
                                     color: 'var(--selected-theme-main-color)',
@@ -42,8 +42,9 @@ const Resume = () => {
                                     <h3>{item.title}</h3>
                                     <h4>{item.subTitle}</h4>         
                                 </div>
-                                <p className="vertical-timeline-element-description-wrapper">{item.description}</p>
-
+                                <p className="vertical-timeline-element-description-wrapper">{item.description}<br/>
+                                <a href='https://github.com/Stefan-migo/ecommerce_sanity_stripe' alt='github link'>{item.link}</a></p>
+                                
                             </VerticalTimelineElement>
                         ))}
                     </VerticalTimeline>
@@ -63,7 +64,7 @@ const Resume = () => {
                                     color: 'var(--selected-theme-main-color)',
                                     border: '1.5px solid var(--selected-theme-main-color)'
                                 }}
-                                date="2020 - present" //item.date if you create that element into the array
+                                date={item.date} //item.date if you create that element into the array
                                 iconStyle={{
                                     background: '#181818',
                                     color: 'var(--selected-theme-main-color)',
@@ -72,7 +73,9 @@ const Resume = () => {
                                 <div className="vertical-timeline-element-title-wrapper">
                                     <h3>{item.title}</h3>
                                     <h4>{item.subTitle}</h4>
+                                    
                                 </div>
+                                <h5>{item.institution}</h5>
                                 <p className="vertical-timeline-element-description-wrapper">{item.description}</p>
 
                             </VerticalTimelineElement>

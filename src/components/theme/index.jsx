@@ -26,7 +26,7 @@ const colorsArray = [{
 const Theme = ()=> {
     //create states in order to pass the id of a specific color to the app and change the color theme.
     //set theme state with a value of yellow as a default value.
-    const [theme, setCurrentTheme] = useState('yellow');
+    const [theme, setCurrentTheme] = useState('blue');
     //set a toogle state with a default value of false
     //when toggle's state changes to true it will add an 'active' class that will display the toggle box with the different theme colors options.
     const [toggle, setToggle] = useState(false);

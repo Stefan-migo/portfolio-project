@@ -3,10 +3,10 @@
 
 :root {
   /* setting variables to use on other css configurations */
-  --selected-theme-background-color : var(--yellow-theme-background-color);
-  --selected-theme-main-color : var(--yellow-theme-main-color);
-  --selected-theme-sub-text-color : var(--yellow-theme-sub-text-color);
-  --selected-theme-nav-background-color : var(--yellow-theme-nav-background-color);
+  --selected-theme-background-color : var(--blue-theme-background-color);
+  --selected-theme-main-color : var(--blue-theme-main-color);
+  --selected-theme-sub-text-color : var(--blue-theme-sub-text-color);
+  --selected-theme-nav-background-color : var(--blue-theme-nav-background-color);
 
   /* primary color yellow */
   --yellow-theme-background-color : #1d1d1d;
@@ -50,7 +50,7 @@ html {
 }
 
 body {
-  background: var(--yellow-theme-background-color);
+  background: var(--blue-theme-background-color);
   height: 100%;
 }
 

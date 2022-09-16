@@ -46,7 +46,7 @@ const Portfolio = () => {
                         key={key} 
                         className="portfolio__content__cards__item">
                             <div className="portfolio__content__cards__item__img-wrapper">
-                                <a>
+                                <a href={item.projectLink} alt='github link' target='_blank'>
                                     <img src={item.image} alt={item.projectName} />
                                 </a>
                             </div> 
@@ -54,7 +54,9 @@ const Portfolio = () => {
                                 {hoveredIndex === key && (
                                 <div>
                                     <p>{item.projectName}</p>
+                                    <a href={item.projectLink} alt='github link' target='_blank'>
                                     <button>Visit</button>
+                                    </a>
                                 </div>
                                 )}  
                             </div>
