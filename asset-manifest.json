@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio-project/static/css/main.3f58c761.css",
+    "main.js": "/portfolio-project/static/js/main.ced6a6cf.js",
+    "static/media/travel-blog.jpg": "/portfolio-project/static/media/travel-blog.11291818a83b7b5c0343.jpg",
+    "static/media/smart-brain.jpg": "/portfolio-project/static/media/smart-brain.88cc0416f36aef757178.jpg",
+    "static/media/portfolio.jpg": "/portfolio-project/static/media/portfolio.3354aa2b5980e88daf1f.jpg",
+    "static/media/chat-app.jpg": "/portfolio-project/static/media/chat-app.ec8bd596faa364be1ea0.jpg",
+    "static/media/ecommerce.jpg": "/portfolio-project/static/media/ecommerce.eafe1d0fd04c4236c485.jpg",
+    "index.html": "/portfolio-project/index.html",
+    "main.3f58c761.css.map": "/portfolio-project/static/css/main.3f58c761.css.map",
+    "main.ced6a6cf.js.map": "/portfolio-project/static/js/main.ced6a6cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f58c761.css",
+    "static/js/main.ced6a6cf.js"
+  ]
+}
