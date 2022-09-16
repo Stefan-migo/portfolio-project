@@ -1,7 +1,7 @@
 {
   "name": "portfolio-2022",
   "version": "0.1.0",
-  "homepage": "https://Stefan-migo.github.io/my_portfolio",
+  "homepage": "https://stefan-migo.github.io/portfolio-project/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
