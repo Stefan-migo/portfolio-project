@@ -1,40 +1,13 @@
 export const Data = {
     experience: [
         {
-            title: 'Sound Tech Store:',
-            subTitle: 'Project',
-            description: 
-            'An e-commerce web app that has been built on top of Next.js, Sanity and Stripe technologies. Code project and live version available on: ',
-            link: 'https://github.com/Stefan-migo/ecommerce_sanity_stripe',
-            linkLive: 'http://ecommerce-sanity-stripe-psi-five.vercel.app/',
-            date: 'May - 2022'
-        },
-        {
-            title: "Pirates' Chat App:",
+            title: 'GreenTube: ',
             subTitle: 'Project',
             description:
-            'It is a web app that works on top of React.js, Node.js and Stream technologies. Code project and live version available on:',
-            link: 'https://github.com/Stefan-migo/pirate_chat_app',
-            linkLive: 'https://pirate-chat-app.vercel.app/',
-            date: 'Jun - 2022'
-        },
-        {
-            title: "Pirates' Chat Server:",
-            subTitle: 'Project',
-            description:
-            "Chat App Server is the backend for the Pirates' Chat App built with Node.js ",
-            link: 'https://github.com/Stefan-migo/chat_app_server',
-            linkLive: 'https://pirate-chat-app.vercel.app/',
-            date: 'Jun - 2022'
-        },
-        {
-            title: 'The Travel Blog:',
-            subTitle: 'Project',
-            description:
-            'It is a web app that works on top of Next.js, HyGraphQL technologies and it is hosted on Vercel. Code project and live version available on: ',
-            link: 'https://github.com/Stefan-migo/travel-blog-project',
-            linkLive: 'https://travel-blog-project.vercel.app/',
-            date: 'Jul - 2022'
+            'GreenTube is a Youtube clone web app that works on top of Next.js technology fetching data from RapidAPI and it is hosted on Render.com. Code project and live version available on: ',
+            link: 'https://github.com/Stefan-migo/greentube-project',
+            linkLive: 'https://greentube.onrender.com/',
+            date: 'Sept - 2022'
         },
         {
             title: 'Smart Brain App: ',
@@ -53,6 +26,42 @@ export const Data = {
             link: 'https://github.com/Stefan-migo/smart-brain-app',
             linkLive: 'https://smart-brain-app.onrender.com',
             date: 'Aug - 2022'
+        },
+        {
+            title: 'The Travel Blog:',
+            subTitle: 'Project',
+            description:
+            'It is a web app that works on top of Next.js, HyGraphQL technologies and it is hosted on Vercel. Code project and live version available on: ',
+            link: 'https://github.com/Stefan-migo/travel-blog-project',
+            linkLive: 'https://travel-blog-project.vercel.app/',
+            date: 'Jul - 2022'
+        },
+        {
+            title: "Pirates' Chat App:",
+            subTitle: 'Project',
+            description:
+            'It is a web app that works on top of React.js, Node.js and Stream technologies. Code project and live version available on:',
+            link: 'https://github.com/Stefan-migo/pirate_chat_app',
+            linkLive: 'https://pirate-chat-app.vercel.app/',
+            date: 'Jun - 2022'
+        },
+        {
+            title: "Pirates' Chat Server:",
+            subTitle: 'Project',
+            description:
+            "Chat App Server is the backend for the Pirates' Chat App built with Node.js ",
+            link: 'https://github.com/Stefan-migo/chat_app_server',
+            linkLive: 'https://pirate-chat-app.vercel.app/',
+            date: 'Jun - 2022'
+        },    
+        {
+            title: 'Sound Tech Store:',
+            subTitle: 'Project',
+            description: 
+            'An e-commerce web app that has been built on top of Next.js, Sanity and Stripe technologies. Code project and live version available on: ',
+            link: 'https://github.com/Stefan-migo/ecommerce_sanity_stripe',
+            linkLive: 'http://ecommerce-sanity-stripe-psi-five.vercel.app/',
+            date: 'May - 2022'
         },
     ],
     education: [
