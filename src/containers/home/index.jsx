@@ -35,7 +35,7 @@ const Home = () => {
                                 </button>
                             </Link>
                         
-                        <a href='https://drive.google.com/file/d/1FIZU8f0JrTF9rPDItoZMtI-3yo-6ciBZ/view?usp=sharing' target='_blank' alt='resume PDF'>
+                        <a href='https://drive.google.com/drive/folders/1P2fnYlbZwpP5Tnyfd8OoncAd-_KqFM7j?usp=sharing' target='_blank' alt='drive folder'>
                             <button>
                                 Download resume
                             </button>

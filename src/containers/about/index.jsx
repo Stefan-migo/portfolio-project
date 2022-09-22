@@ -28,9 +28,13 @@ const About = () => {
                     }}
                     >
                     <h3 className="developerContent">My journey as a Full Stack Web Developer </h3>
-                    <p> I graduated from the University of Chile and I hold a bachelor's degree as Ophthalmic Medical Technician and Optometry (Eyes Specialist). In addition, I also have experience in other areas, where I have developed and certificated my skills, one of them is the Full Stack Web development field where I have been since the pandemic began.<br/>
-                    <br/> 
-                        A few years ago I made up my mind to move abroad from Chile, trying to find my own path in life and explore new job opportunities. I quit my job as an eyes specialist in Chile and I started the journey to find my real passion. After 3 years moving and exploring different fields, I finally understood my connection with coding and technologies. Since then I have been studying and above all coding different sorts of projects.<br/>
+
+                    <p> 
+                        I would like to introduce myself to you as I believe I have the skills, qualifications and experience necessary to make a significant contribution to your team.<br/>
+                        <br/>
+                        I graduated from the University of Chile and I hold a bachelor's degree as Optician and Optometrist (Eyes Specialist). In addition, I also have experience in other areas, where I have developed and certificated my skills, one of them is the Full Stack Web development, field where I have been since the pandemic began.<br/>
+                        <br/> 
+                        A few years ago I made up my mind to move abroad from my country, in order to find my own path in life and explore new job opportunities. I quit my job as an eyes specialist in Chile and I started this journey to find my real passion. After 3 years moving and exploring different fields, I finally understood that I have had a connection with coding since I was very young. So I have been studying different programming languages and above all coding different sorts of projects in order to improve my coding skills.<br/>
                         <br/> 
                         My problem-solving mindset, outgoing personality and can-do approach to any task make me a valued team member, and ensure that each project will be built with the best practices possible.<br/>  
                         <br/> 
