@@ -44,7 +44,7 @@ const Home = () => {
                     <div className="contact-me__socials-wrapper">
                         <a href='https://www.instagram.com/leberland/' target='_blank' alt='personal instagram'> 
                             <FaInstagram size={32} /> </a>
-                        <a href='https://www.linkedin.com/in/stefan-miranda-gonzalez-787387118/' target='_blank' alt='personal linkedin'>
+                        <a href='https://www.linkedin.com/in/stefanmiranda/' target='_blank' alt='personal linkedin'>
                             <FaLinkedin size={32} /></a>
                         <a href='https://github.com/Stefan-migo' target='_blank' alt='personal github'>
                             <FaGithub size={32} /></a>
